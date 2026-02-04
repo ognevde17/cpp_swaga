@@ -7,7 +7,7 @@ struct Base {
         std::cout << 1;
     }
 };
-struct Derived {
+struct Derived : Base {
     void foo() {
         std::cout << 2;
     }
@@ -15,5 +15,5 @@ struct Derived {
 
 int main() {
     Derived d;
-    d.foo(1);// error: too many arguments to function call, expected 0, have 1
+    d.foo(1);
 }
