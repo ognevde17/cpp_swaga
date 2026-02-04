@@ -1,5 +1,5 @@
 #include <iostream>
-struct Granny:
+struct Granny {
     int x = 1;
     void f() {
         std::cout << x;
