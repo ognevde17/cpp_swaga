@@ -1,3 +1,3 @@
 bool IsZero(int i) {
-  return i && &i;
+  return i&&&i;
 }
